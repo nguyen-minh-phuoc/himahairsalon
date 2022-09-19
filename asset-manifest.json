@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/himahairsalon/static/css/main.44c0e955.css",
+    "main.js": "/himahairsalon/static/js/main.75ee189a.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/himahairsalon/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/header.png": "/himahairsalon/static/media/header.bcedfe65ba779d0d808c.png",
+    "static/media/haircut.jpg": "/himahairsalon/static/media/haircut.6ee88171f9635fa2a5e6.jpg",
+    "static/media/logo6.png": "/himahairsalon/static/media/logo6.d4577b638f12b1d94c4b.png",
+    "static/media/uon.png": "/himahairsalon/static/media/uon.82aa7a08bfd1b1117c21.png",
+    "static/media/duoi.png": "/himahairsalon/static/media/duoi.ab321a0e8b1b7c45e315.png",
+    "static/media/nhuom.png": "/himahairsalon/static/media/nhuom.19fb561edecd77a9c0a1.png",
+    "static/media/cat.png": "/himahairsalon/static/media/cat.56164f36b8872f735610.png",
+    "static/media/nhi_nguyen.jpg": "/himahairsalon/static/media/nhi_nguyen.bd5eaafcadbdffd20bf8.jpg",
+    "static/media/goi.png": "/himahairsalon/static/media/goi.db14ee62f373c1efe574.png",
+    "static/media/ngoc_van.jpg": "/himahairsalon/static/media/ngoc_van.732da9803a99765ce11e.jpg",
+    "static/media/mi_nu.jpg": "/himahairsalon/static/media/mi_nu.3eac3ad873d0d6350c66.jpg",
+    "static/media/nhi_phan.jpg": "/himahairsalon/static/media/nhi_phan.b095ef44d21c010019fc.jpg",
+    "static/media/minh_chau.jpg": "/himahairsalon/static/media/minh_chau.e91ec20daa6fed6baaab.jpg",
+    "static/media/ha_min.jpg": "/himahairsalon/static/media/ha_min.0c7498769365e0f29719.jpg",
+    "static/media/thao_cao.jpg": "/himahairsalon/static/media/thao_cao.59e7790a9dcc454d1a7a.jpg",
+    "static/media/trang_tong.jpg": "/himahairsalon/static/media/trang_tong.5debd0f4c1bc1e15fabc.jpg",
+    "index.html": "/himahairsalon/index.html",
+    "main.44c0e955.css.map": "/himahairsalon/static/css/main.44c0e955.css.map",
+    "main.75ee189a.js.map": "/himahairsalon/static/js/main.75ee189a.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/himahairsalon/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44c0e955.css",
+    "static/js/main.75ee189a.js"
+  ]
+}
