@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+.price-list table.first th
+{
+    border-top: 1px solid #DEE2E6;
+}
+.price-list table td,th
+{
+    border-bottom: 1px solid #DEE2E6;
+}
+.price-list table th{
+    font-size: 14px;
+    word-wrap: break-word;
+    padding: 10px 0
+}
+
+.price-list table td{
+    padding: 10px;
+}
+
+svg.marker-icon 
+{
+    color: #F73E7B;
+}
