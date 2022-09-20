@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/himahairsalon/static/css/main.44c0e955.css",
-    "main.js": "/himahairsalon/static/js/main.6d11d0bf.js",
+    "main.js": "/himahairsalon/static/js/main.efeff65b.js",
     "static/js/787.c4e7f8f9.chunk.js": "/himahairsalon/static/js/787.c4e7f8f9.chunk.js",
     "static/media/header.png": "/himahairsalon/static/media/header.bcedfe65ba779d0d808c.png",
     "static/media/haircut.jpg": "/himahairsalon/static/media/haircut.6ee88171f9635fa2a5e6.jpg",
@@ -21,11 +21,11 @@
     "static/media/trang_tong.jpg": "/himahairsalon/static/media/trang_tong.5debd0f4c1bc1e15fabc.jpg",
     "index.html": "/himahairsalon/index.html",
     "main.44c0e955.css.map": "/himahairsalon/static/css/main.44c0e955.css.map",
-    "main.6d11d0bf.js.map": "/himahairsalon/static/js/main.6d11d0bf.js.map",
+    "main.efeff65b.js.map": "/himahairsalon/static/js/main.efeff65b.js.map",
     "787.c4e7f8f9.chunk.js.map": "/himahairsalon/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44c0e955.css",
-    "static/js/main.6d11d0bf.js"
+    "static/js/main.efeff65b.js"
   ]
 }
