@@ -2,6 +2,7 @@ import React from "react";
 import mapIcon from "../Assests/Images/Icon/map-pin-2-fill.png";
 import clockIcon from "../Assests/Images/Icon/clock.png";
 import img1 from "../Assests/Images/Icon/Vector-1.png";
+import img2 from "../Assests/Images/Icon/tiktok.png";
 import img3 from "../Assests/Images/Icon/Vector-3.png";
 import img4 from "../Assests/Images/Icon/Vector.png";
 
@@ -35,6 +36,7 @@ const Footer = () => {
         <div>
           <div className="flex gap-6 mt-2">
             <img className="w-6 h-6" src={img1} alt="" />
+            <img className="w-6 h-6" src={img2} alt="" />
             <img className="w-6 h-6" src={img3} alt="" />
             <img className="w-6 h-6" src={img4} alt="" />
           </div>

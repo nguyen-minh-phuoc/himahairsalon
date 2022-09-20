@@ -61,7 +61,7 @@ const Navbar = () => {
               Sản phẩm
             </CustomLink> */}
             <CustomLink
-              to="/contact"
+              to="/lien-he"
               className=" px-5 text-accent rounded py-1   "
             >
               Liên hệ

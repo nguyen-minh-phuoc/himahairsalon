@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<Home></Home>}></Route>
           <Route path="san-pham" element={<Products></Products>}></Route>
           <Route path="bang-gia" element={<PriceList></PriceList>}></Route>
-          <Route path="contact" element={<ContactUs></ContactUs>}></Route>
+          <Route path="lien-he" element={<ContactUs></ContactUs>}></Route>
         </Routes>
       </Wrapper>
     </>
