@@ -68,11 +68,9 @@ const Navbar = () => {
             </CustomLink>
             <button
               className="px-5 font-semibold rounded py-2 flex items-center justify-center bg-primary text-white"
-              onClick={() =>
-                window.open("https://www.facebook.com/salonHimahair", "_blank")
-              }
+              onClick={() => (window.location = "tel://0903639871")}
             >
-              Facebook
+              Tư vấn miễn phí
             </button>
           </div>
         </div>

@@ -6,7 +6,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 // import required modules
-import { Pagination,Autoplay } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 import img1 from "../../Assests/Images/Icon/cat.png";
 import img2 from "../../Assests/Images/Icon/nhuom.png";
 import img3 from "../../Assests/Images/Icon/uon.png";
@@ -31,8 +31,7 @@ const AwesomeServices = () => {
 
       price: 100,
 
-      description:
-        "With well written codes, we build amazing apps for all platforms, mobile and web apps in general.",
+      description: "",
     },
     {
       id: 2,
@@ -43,8 +42,7 @@ const AwesomeServices = () => {
 
       price: 600,
 
-      description:
-        "Amazing flyers, social media posts and brand representations that would make your brand stand out",
+      description: "",
     },
     {
       id: 3,
@@ -53,10 +51,9 @@ const AwesomeServices = () => {
 
       img: img3,
 
-      price: 300,
+      price: 600,
 
-      description:
-        "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
+      description: "",
     },
     {
       id: 4,
@@ -67,9 +64,8 @@ const AwesomeServices = () => {
 
       price: 600,
 
-      description:
-        "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
-    },    
+      description: "",
+    },
     {
       id: 5,
 
@@ -79,9 +75,8 @@ const AwesomeServices = () => {
 
       price: 70,
 
-      description:
-        "We craft stunning and amazing web UI, using a well drrafted UX to fit your product.",
-    }    
+      description: "",
+    },
   ];
   return (
     <div className="py-16 bg-base-100">
@@ -89,7 +84,7 @@ const AwesomeServices = () => {
         <span className="text-primary">Dịch Vụ</span> của Chúng Tôi
       </h2>
       <div className="container">
-      <Swiper          
+        <Swiper
           slidesPerView={1}
           spaceBetween={10}
           freeMode={true}
@@ -109,21 +104,26 @@ const AwesomeServices = () => {
             1100: {
               slidesPerView: 3,
               spaceBetween: 10,
-            }
+            },
           }}
-          modules={[Pagination,Autoplay]}
+          modules={[Pagination, Autoplay]}
           className="serviceSwiper w-[100%] h-[390px]"
         >
-        {services.map((service) => (
-           <SwiperSlide key={service.id}>
+          {services.map((service) => (
+            <SwiperSlide key={service.id}>
               <Service key={service.id} service={service}></Service>
-          </SwiperSlide>
-        ))}
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
 
-      <button onClick={() => {navigate("bang-gia")}} className="px-8 mt-8 block mx-auto  rounded py-3 hover:bg-rose-600 transition duration-300 ease-in-out bg-primary text-white">
-        Xem thêm
+      <button
+        onClick={() => {
+          navigate("bang-gia");
+        }}
+        className="px-8 mt-8 block mx-auto  rounded py-3 hover:bg-rose-600 transition duration-300 ease-in-out bg-primary text-white"
+      >
+        Xem chi tiết
       </button>
     </div>
   );

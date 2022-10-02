@@ -19,10 +19,11 @@ const ContactUs = () => {
   };
 
   return (
-    <div>
+    <div className="page-contact-us">
       <div className="pb-1 bg-neutral">
         <Navbar />
       </div>
+      <div className="page-banner"></div>
       <div className="container price-list">
         <h1 className="text-3xl font-bold py-5 text-primary">Liên hệ</h1>
         <div className="flex flex-col md:items-start md:flex-row mb-10">
@@ -55,7 +56,7 @@ const ContactUs = () => {
             <div className="h-[350px] w-full">
               <GoogleMapReact
                 bootstrapURLKeys={{
-                  key: "AIzaSyDWDLaBEmGEN68zzbfTrxOFCaj8XER7umI",
+                  key: "AIzaSyCzlJLI8hljDnCz-NYT2kbxx1cRodAw4sA",
                 }}
                 defaultCenter={defaultProps.center}
                 defaultZoom={defaultProps.zoom}

@@ -5,7 +5,7 @@ import img1 from "../Assests/Images/Icon/Vector-1.png";
 import img2 from "../Assests/Images/Icon/tiktok.png";
 import img3 from "../Assests/Images/Icon/Vector-3.png";
 import img4 from "../Assests/Images/Icon/Vector.png";
-
+import {} from "@heroicons/react/solid";
 const Footer = () => {
   return (
     <div className="bg-primary text-white">
@@ -35,10 +35,18 @@ const Footer = () => {
         </div>
         <div>
           <div className="flex gap-6 mt-2">
-            <img className="w-6 h-6" src={img1} alt="" />
-            <img className="w-6 h-6" src={img2} alt="" />
-            <img className="w-6 h-6" src={img3} alt="" />
-            <img className="w-6 h-6" src={img4} alt="" />
+            <a href="https://www.instagram.com/hima_hair_salon" target="_blank">
+              <img className="w-6 h-6" src={img1} alt="Instagram" />
+            </a>
+            <a href="https://www.tiktok.com/@hima.hairsalon" target="_blank">
+              <img className="w-6 h-6" src={img2} alt="Tiktok" />
+            </a>
+            <a href="https://www.tiktok.com/@hima.hairsalon" target="_blank">
+              <img className="w-6 h-6" src={img3} alt="Youtube" />
+            </a>
+            <a href="https://www.facebook.com/salonHimahair" target="_blank">
+              <img className="w-6 h-6" src={img4} alt="Facebook" />
+            </a>
           </div>
           <div className="flex items-start mt-[10px]">
             <img className="w-[24px] h-[24px] mt-1" src={clockIcon} alt="" />

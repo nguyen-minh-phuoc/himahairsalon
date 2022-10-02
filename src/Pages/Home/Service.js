@@ -10,9 +10,9 @@ const Service = ({ service }) => {
       <img src={img} className="w-[128px] h-[128px]" alt="" />
       <h2 className="mt-4 mb-1 font-semibold text-accent">{name}</h2>
       <h2 className="text-primary mb-2">{price}k</h2>
-      <p className="px-7 text-center  text-gray-500 font-light">
+      {/* <p className="px-7 text-center  text-gray-500 font-light">
         {description}
-      </p>
+      </p> */}
     </div>
   );
 };

@@ -4,6 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+.page-banner
+{
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    /* margin-bottom: 30px; */
+}
+
+
 .price-list table.first th
 {
     border-top: 1px solid #DEE2E6;
@@ -11,6 +21,10 @@
 .price-list table td,th
 {
     border-bottom: 1px solid #DEE2E6;
+}
+.price-list table tfoot td,th
+{
+    border-bottom: 0;
 }
 .price-list table th{
     font-size: 14px;
@@ -25,4 +39,38 @@
 svg.marker-icon 
 {
     color: #F73E7B;
+}
+
+.page-price-list .page-banner
+{
+    background-image: url(./Assests/Images/Image/pricelist2_md.jpg);
+
+}
+.page-contact-us .page-banner
+{
+    background-image: url(./Assests/Images/Image/contact_us_md.jpg);
+}
+.text-hima
+{
+    background: linear-gradient(
+        270.97deg,
+        #FFE580 -21.36%,
+        #FF7571 -2.45%,
+        #EA5DAD 26.84%,
+        #C2A0FD 64.15%,
+        #3BF0E4 108.29%,
+        #B2F4B6 159.03% );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 767px) {
+    .page-banner
+    {
+        height: 250px;
+    }
+    .page-price-list .page-banner
+    {
+        background-image: url(./Assests/Images/Image/pricelist2_xs.jpg);
+    
+    }
 }

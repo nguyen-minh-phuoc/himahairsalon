@@ -4,10 +4,11 @@ import Navbar from "../Shared/Navbar";
 
 const PriceList = () => {
   return (
-    <div>
+    <div className="page-price-list">
       <div className="pb-1 bg-neutral">
         <Navbar />
       </div>
+      <div className="page-banner"></div>
       <div>
         <div className="container price-list">
           <h1 className="text-3xl font-bold py-5 text-primary">Bảng giá</h1>
@@ -147,6 +148,13 @@ const PriceList = () => {
                 <td>500 - 800</td>
               </tr>
             </tbody>
+            <tfoot>
+              <tr>
+                <td colSpan={2} className="text-right">
+                  * ĐVT: ngàn đồng
+                </td>
+              </tr>
+            </tfoot>
           </table>
         </div>
       </div>
