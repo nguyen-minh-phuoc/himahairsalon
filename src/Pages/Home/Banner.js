@@ -1,5 +1,4 @@
 import React from "react";
-import headerImg from "../../Assests/Images/Image/header.png";
 import headerImg2 from "../../Assests/Images/Image/home.jpg";
 import Navbar from "../../Shared/Navbar";
 const Banner = () => {

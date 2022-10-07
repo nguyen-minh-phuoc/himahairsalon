@@ -35,16 +35,32 @@ const Footer = () => {
         </div>
         <div>
           <div className="flex gap-6 mt-2">
-            <a href="https://www.instagram.com/hima_hair_salon" target="_blank">
+            <a
+              href="https://www.instagram.com/hima_hair_salon"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="w-6 h-6" src={img1} alt="Instagram" />
             </a>
-            <a href="https://www.tiktok.com/@hima.hairsalon" target="_blank">
+            <a
+              href="https://www.tiktok.com/@hima.hairsalon"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="w-6 h-6" src={img2} alt="Tiktok" />
             </a>
-            <a href="https://www.tiktok.com/@hima.hairsalon" target="_blank">
+            <a
+              href="https://www.tiktok.com/@hima.hairsalon"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="w-6 h-6" src={img3} alt="Youtube" />
             </a>
-            <a href="https://www.facebook.com/salonHimahair" target="_blank">
+            <a
+              href="https://www.facebook.com/salonHimahair"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="w-6 h-6" src={img4} alt="Facebook" />
             </a>
           </div>

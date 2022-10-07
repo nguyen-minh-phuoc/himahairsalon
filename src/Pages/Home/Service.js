@@ -1,7 +1,7 @@
 import React from "react";
 
 const Service = ({ service }) => {
-  const { name, price, description, img } = service;
+  const { name, price, img } = service;
   //const navigate = useNavigate();
   return (
     <div
@@ -16,5 +16,4 @@ const Service = ({ service }) => {
     </div>
   );
 };
-
 export default Service;
