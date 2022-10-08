@@ -20,15 +20,15 @@ const QualityService = () => {
                 </p>{" "}
               </h2>
               <p className="text-[18px] text-gray-500 font-light">
-                Hima Hair Salon kinh doanh theo mô hình gia đình với phương châm
-                "chất lượng hơn số lượng, uy tín tạo nên thương hiệu" cùng với
-                tiêu chí :
+                Hima Hair Salon chúng tôi hoạt động theo mô hình kinh doanh gia
+                đình với phương châm "chất lượng hơn số lượng, uy tín tạo nên
+                thương hiệu" cùng với tiêu chí :
               </p>
               <ul className="quality-list text-[18px] text-gray-500 font-light mt-3">
                 <li>
                   Tư vấn và giải thích chi tiết cho khách về tình trạng của tóc
                 </li>
-                <li>Không cần phục hồi tóc trước khi sử dụng dịch vụ</li>
+                <li>Khách không cần phục hồi tóc trước khi sử dụng dịch vụ</li>
                 <li>Giá cả niêm yết rõ ràng</li>
                 <li>
                   Sản phẩm chính hãng nhập nước ngoài, khách hàng có thể đồng
