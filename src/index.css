@@ -74,3 +74,9 @@ svg.marker-icon
     
     }
 }
+
+.quality-list
+{
+    list-style: disc !important;
+    padding-left: 40px;
+}

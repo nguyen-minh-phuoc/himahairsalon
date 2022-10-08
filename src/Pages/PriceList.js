@@ -47,7 +47,7 @@ const PriceList = () => {
                 <td>
                   Gội cao cấp <br /> (dầu gội cao cấp Davines - Ý)
                 </td>
-                <td>150</td>
+                <td>100</td>
               </tr>
             </tbody>
           </table>
@@ -63,17 +63,17 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">
-                  Gói 1: AFINAGE, RG <br />
+                  Gói 1 (nhuộm dưỡng): AFINAGE, RG <br />
                   (Size S/M/L/XL)
                 </td>
-                <td>600 - 700 - 800 - 900</td>
+                <td>500 - 800</td>
               </tr>
               <tr>
                 <td>
-                  Gói 2: DAVINES, ERAYBA, MIBON <br />
+                  Gói 2 (nhuộm phục hồi): DAVINES, ERAYBA, MIBON <br />
                   (Size S/M/L/XL)
                 </td>
-                <td>800 - 900 - 1000 - 1200</td>
+                <td>700 - 1000</td>
               </tr>
               <tr>
                 <td>Làm nền / nâng tông</td>
@@ -81,7 +81,7 @@ const PriceList = () => {
               </tr>
               <tr>
                 <td>Giậm chân tóc</td>
-                <td>300 - 400</td>
+                <td>200 - 400</td>
               </tr>
             </tbody>
           </table>
@@ -108,11 +108,11 @@ const PriceList = () => {
                   Uốn hoặc Duỗi (Size S/M/L)
                   <br /> Uốn + Duỗi (thêm phí duỗi 200)
                 </td>
-                <td>700 - 800 - 900</td>
+                <td>600 - 900</td>
               </tr>
               <tr>
                 <td>Uốn xù, uốn sóng (Size S/M/L)</td>
-                <td>800 - 900 - 1000</td>
+                <td>700 - 1000</td>
               </tr>
             </tbody>
           </table>
@@ -128,24 +128,31 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">
-                  Hấp dưỡng / phục hồi <br /> (Devines, Morocanoil, Ceko)
+                  Hấp dưỡng <br /> (Morocanoil)
                 </td>
                 <td>200 - 400</td>
               </tr>
               <tr>
-                <td>
-                  Tẩy tóc / bóc màu (Size S/M/L)
-                  <br /> Uốn + Duỗi (thêm phí duỗi 200)
+                <td className="w-[70%]">
+                  Phục hồi <br /> (Morocanoil, Nhật)
                 </td>
+                <td>300 - 600</td>
+              </tr>
+              <tr>
+                <td>Tẩy tóc / bóc màu (Size S/M/L)</td>
                 <td>500 - 800 - 1000</td>
               </tr>
               <tr>
                 <td>Móc light sợi</td>
-                <td>200 - 400</td>
+                <td>200 - 500</td>
               </tr>
               <tr>
                 <td>Móc light mảng</td>
                 <td>500 - 800</td>
+              </tr>
+              <tr>
+                <td>Tẩy balayage</td>
+                <td>2000 - 3000</td>
               </tr>
             </tbody>
             <tfoot>

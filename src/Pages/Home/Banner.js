@@ -15,7 +15,7 @@ const Banner = () => {
               Chuyên Tạo Mẫu Tóc Nữ
             </h2>
           </div>
-          <p className="text-gray-500 w-5/6 md:w-6/8 mx-auto lg:mx-0 mt-4 md:mt-6">
+          <p className="text-[18px] text-gray-500 font-light text-gray-500 w-5/6 md:w-6/8 mx-auto lg:mx-0 mt-4 md:mt-6">
             Chào mừng bạn đến với Hima Hair Salon. Với nhiều năm kinh nghiệm
             trong lĩnh vực tạo mẫu và chăm sóc tóc, chúng tôi cam kết sẽ mang
             đến cho bạn những trải nghiệm và dịch vụ tốt nhất với chi phí hợp lý
