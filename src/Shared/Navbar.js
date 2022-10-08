@@ -3,10 +3,17 @@ import { MenuAlt1Icon, MenuAlt3Icon, XIcon } from "@heroicons/react/solid";
 import { useLocation, useNavigate } from "react-router-dom";
 import logo from "../Assests/Images/Image/logo6.png";
 import CustomLink from "./CustomLink";
+import useAnalyticsEventTracker from "./useAnalyticsEventTracker";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   const navigate = useNavigate();
   const { pathname } = useLocation();
+  const gaEventTracker = useAnalyticsEventTracker("Navbar");
+  const callUs = () => {
+    gaEventTracker("Call Us", "Consult");
+    window.location = "tel://0903639871";
+  };
+
   return (
     <div>
       <nav className="container ">
@@ -68,7 +75,7 @@ const Navbar = () => {
             </CustomLink>
             <button
               className="px-5 font-semibold rounded py-2 flex items-center justify-center bg-primary text-white"
-              onClick={() => (window.location = "tel://0903639871")}
+              onClick={() => callUs()}
             >
               Tư vấn miễn phí
             </button>

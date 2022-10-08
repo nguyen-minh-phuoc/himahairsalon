@@ -1,7 +1,14 @@
 import React from "react";
 import headerImg2 from "../../Assests/Images/Image/home.jpg";
 import Navbar from "../../Shared/Navbar";
+import useAnalyticsEventTracker from "../../Shared/useAnalyticsEventTracker";
+
 const Banner = () => {
+  const gaEventTracker = useAnalyticsEventTracker("Banner");
+  const callUs = () => {
+    gaEventTracker("Call Us", "Booking");
+    window.location = "tel://0903639871";
+  };
   return (
     <div className="pb-3 bg-neutral">
       <Navbar></Navbar>
@@ -21,7 +28,11 @@ const Banner = () => {
             đến cho bạn những trải nghiệm và dịch vụ tốt nhất với chi phí hợp lý
             nhất.
           </p>
-          <button className="px-8 my-4 md:my-7 rounded py-3 hover:bg-rose-600 transition duration-300 ease-in-out bg-primary text-white">
+
+          <button
+            onClick={() => callUs()}
+            className="px-8 my-4 md:my-7 rounded py-3 hover:bg-rose-600 transition duration-300 ease-in-out bg-primary text-white"
+          >
             Gọi đặt lịch
           </button>
         </div>

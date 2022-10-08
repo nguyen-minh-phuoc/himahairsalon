@@ -1,23 +1,8 @@
 import React from "react";
 import Footer from "../Shared/Footer";
 import Navbar from "../Shared/Navbar";
-import GoogleMapReact from "google-map-react";
-import { LocationMarkerIcon } from "@heroicons/react/solid";
-const GoogleMapMarker = ({ text }) => (
-  <div className="flex flex-col">
-    <LocationMarkerIcon className="w-8 h-8 marker-icon" />
-    <div className="font-bold">{text}</div>
-  </div>
-);
-const ContactUs = () => {
-  const defaultProps = {
-    center: {
-      lat: 10.818870688512547,
-      lng: 106.68561688033994,
-    },
-    zoom: 17,
-  };
 
+const ContactUs = () => {
   return (
     <div className="page-contact-us">
       <div className="pb-1 bg-neutral">
@@ -54,19 +39,17 @@ const ContactUs = () => {
           </div>
           <div className="flex-1 mt-4 md:mt-0">
             <div className="h-[350px] w-full">
-              <GoogleMapReact
-                bootstrapURLKeys={{
-                  key: "AIzaSyCzlJLI8hljDnCz-NYT2kbxx1cRodAw4sA",
-                }}
-                defaultCenter={defaultProps.center}
-                defaultZoom={defaultProps.zoom}
-              >
-                <GoogleMapMarker
-                  lat={10.818870688512547}
-                  lng={106.68561688033994}
-                  text="Hima Hair Salon"
-                />
-              </GoogleMapReact>
+              <iframe
+                title="map"
+                className="gmap_iframe"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                scrolling="no"
+                marginheight="0"
+                marginwidth="0"
+                src="https://maps.google.com/maps?hl=vi&amp;q=Hima Hair Salon&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+              ></iframe>
             </div>
           </div>
         </div>
