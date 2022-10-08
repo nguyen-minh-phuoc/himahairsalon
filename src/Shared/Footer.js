@@ -3,7 +3,7 @@ import mapIcon from "../Assests/Images/Icon/map-pin-2-fill.png";
 import clockIcon from "../Assests/Images/Icon/clock.png";
 import img1 from "../Assests/Images/Icon/Vector-1.png";
 import img2 from "../Assests/Images/Icon/tiktok.png";
-import img3 from "../Assests/Images/Icon/Vector-3.png";
+// import img3 from "../Assests/Images/Icon/Vector-3.png";
 import img4 from "../Assests/Images/Icon/Vector.png";
 import {} from "@heroicons/react/solid";
 const Footer = () => {
@@ -31,6 +31,10 @@ const Footer = () => {
             <a href="tel:0903639871" className="ml-3 mt-1">
               <span>0903.639.871</span>
             </a>
+            <span className="ml-2 mt-1">-</span>
+            <a href="tel:0349322477" className="ml-2 mt-1">
+              <span>0349.322.477</span>
+            </a>
           </div>
         </div>
         <div>
@@ -49,13 +53,13 @@ const Footer = () => {
             >
               <img className="w-6 h-6" src={img2} alt="Tiktok" />
             </a>
-            <a
+            {/* <a
               href="https://www.tiktok.com/@hima.hairsalon"
               target="_blank"
               rel="noreferrer"
             >
               <img className="w-6 h-6" src={img3} alt="Youtube" />
-            </a>
+            </a> */}
             <a
               href="https://www.facebook.com/salonHimahair"
               target="_blank"

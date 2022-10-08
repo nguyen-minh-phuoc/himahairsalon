@@ -73,6 +73,11 @@ svg.marker-icon
         background-image: url(./Assests/Images/Image/pricelist2_xs.jpg);
     
     }
+
+    .footer
+{
+    row-gap: 1em;
+}
 }
 
 .quality-list
@@ -80,3 +85,4 @@ svg.marker-icon
     list-style: disc !important;
     padding-left: 40px;
 }
+

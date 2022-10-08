@@ -16,7 +16,7 @@ const QualityService = () => {
             <div className=" lg:pl-24 ">
               <h2 className="text-[30px] font-bold mb-5">
                 <p>
-                  <span className="text-primary">Chất lượng </span>hơn số lượng
+                  <span className="text-primary">Uy Tín - Chất Lượng</span>
                 </p>{" "}
               </h2>
               <p className="text-[18px] text-gray-500 font-light">
@@ -25,12 +25,11 @@ const QualityService = () => {
                 tiêu chí :
               </p>
               <ul className="quality-list text-[18px] text-gray-500 font-light mt-3">
-                <li>Giá cả niêm yết rõ ràng</li>
-                <li>Thường xuyên có các chương trình khuyến mãi tặng kèm</li>
-                <li>Không cần phục hồi tóc trước khi sử dụng dịch vụ</li>
                 <li>
                   Tư vấn và giải thích chi tiết cho khách về tình trạng của tóc
                 </li>
+                <li>Không cần phục hồi tóc trước khi sử dụng dịch vụ</li>
+                <li>Giá cả niêm yết rõ ràng</li>
                 <li>
                   Sản phẩm chính hãng nhập nước ngoài, khách hàng có thể đồng
                   kiểm tra trước khi làm
