@@ -32,7 +32,7 @@ const ContactUs = () => {
               <div>
                 <span className="font-bold">Địa chỉ: </span>
                 <a
-                  href="https://www.google.com/maps/dir/10.822499,106.6880844/hima+hair+salon/@10.8206899,106.6848215,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x317529bee3a818c3:0xdd373efea6f7747d!2m2!1d106.6856174!2d10.8188547"
+                  href="https://www.google.com/maps/place/Hima+Hair+Salon/@10.8188547,106.6834287,17z/data=!3m1!4b1!4m5!3m4!1s0x317529bee3a818c3:0xdd373efea6f7747d!8m2!3d10.8188547!4d106.6856174"
                   target="_blank"
                   rel="noreferrer"
                 >

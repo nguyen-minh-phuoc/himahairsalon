@@ -14,8 +14,14 @@ const Footer = () => {
           <div className="flex items-start">
             <img className="w-6 h-6 mt-1" src={mapIcon} alt="" />
             <p className="ml-2">
-              109/8 Lê Lợi, Phường 4, Quận Gò Vấp
-              <br /> TP. Hồ Chí Minh
+              <a
+                href="https://www.google.com/maps/place/Hima+Hair+Salon/@10.8188547,106.6834287,17z/data=!3m1!4b1!4m5!3m4!1s0x317529bee3a818c3:0xdd373efea6f7747d!8m2!3d10.8188547!4d106.6856174"
+                target="_blank"
+                rel="noreferrer"
+              >
+                109/8 Lê Lợi, Phường 4, Quận Gò Vấp
+                <br /> TP. Hồ Chí Minh
+              </a>
             </p>
           </div>
           <div className="flex items-start">
