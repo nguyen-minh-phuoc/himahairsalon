@@ -1,4 +1,5 @@
 import React from "react";
+import formatFacebookLink from "./formatFacebookLink";
 import mapIcon from "../Assests/Images/Icon/map-pin-2-fill.png";
 import clockIcon from "../Assests/Images/Icon/clock.png";
 import img1 from "../Assests/Images/Icon/Vector-1.png";
@@ -46,7 +47,7 @@ const Footer = () => {
         <div>
           <div className="flex gap-6 mt-2">
           <a
-              href="https://www.facebook.com/salonHimahair"
+              href={formatFacebookLink("https://www.facebook.com/salonHimahair",100063613957040)}
               target="_blank"
               rel="noreferrer"
             >
