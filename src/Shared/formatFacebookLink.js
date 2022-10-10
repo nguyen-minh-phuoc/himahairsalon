@@ -7,7 +7,7 @@ const formatFacebookLink = ( link , pageId ) => {
     }
     else if(mobileOS === "iOS")
     {
-        fbLink = "fb://page/" + pageId;
+        fbLink = "fb://profile/" + pageId;
     }    
     return fbLink
 };
