@@ -1,6 +1,7 @@
 import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import formatFacebookLink from "../../Shared/formatFacebookLink";
 
 // Import Swiper styles
 import "swiper/css";
@@ -84,6 +85,8 @@ const Testimonials = () => {
         "Nhân viên thân thiên , anh chủ thì bao tận tình và dễ thương luôn nha . Mọi người hay đến và trải nghiệm đảm bảo sẽ ưng ý ngay lần đầu tiên luôn nhé . ☺️☺️",
     },
   ];
+  
+
   return (
     <div className="bg-base-100 py-20 px-4">
       <h2 className="mb-16 text-center text-[30px] font-bold text-accent">
@@ -162,7 +165,7 @@ const Testimonials = () => {
         <button
           onClick={() =>
             window.open(
-              "https://www.facebook.com/salonHimahair/reviews",
+              formatFacebookLink("https://www.facebook.com/salonHimahair/reviews",100063613957040),
               "_blank"
             )
           }
