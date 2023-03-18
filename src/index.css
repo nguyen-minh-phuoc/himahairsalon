@@ -48,7 +48,12 @@ svg.marker-icon
 }
 .page-contact-us .page-banner
 {
-    background-image: url(./Assests/Images/Image/contact_us_md.jpg);
+    background-image: url(./Assests/Images/Image/hair_tools.jpg);
+}
+
+.page-gallery .page-banner
+{
+    background-image: url(./Assests/Images/Image/hair_tools.jpg);
 }
 .text-hima
 {

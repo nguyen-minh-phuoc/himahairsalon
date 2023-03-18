@@ -155,6 +155,26 @@ const PriceList = () => {
                 <td>2000 - 3000</td>
               </tr>
             </tbody>
+          </table>
+
+          <table className="table-auto w-full mb-20">
+            <thead>
+              <tr>
+                <th scope="col" colSpan={2} className="bg-secondary">
+                  Dịch vụ cơ bản
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="w-[70%]">Nhuộm cơ bản</td>
+                <td>400 - 700</td>
+              </tr>
+              <tr>
+                <td className="w-[70%]">Uốn cơ bản</td>
+                <td>400 - 700</td>
+              </tr>
+            </tbody>
             <tfoot>
               <tr>
                 <td colSpan={2} className="text-right">
