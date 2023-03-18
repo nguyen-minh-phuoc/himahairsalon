@@ -85,7 +85,6 @@ const PriceList = () => {
               </tr>
             </tbody>
           </table>
-
           <table className="table-auto w-full">
             <thead>
               <tr>
@@ -116,8 +115,7 @@ const PriceList = () => {
               </tr>
             </tbody>
           </table>
-
-          <table className="table-auto w-full mb-20">
+          <table className="table-auto w-full">
             <thead>
               <tr>
                 <th scope="col" colSpan={2} className="bg-secondary">
@@ -156,7 +154,6 @@ const PriceList = () => {
               </tr>
             </tbody>
           </table>
-
           <table className="table-auto w-full mb-20">
             <thead>
               <tr>
