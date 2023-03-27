@@ -169,7 +169,7 @@ const PriceList = () => {
               </tr>
               <tr>
                 <td className="w-[70%]">Uốn cơ bản</td>
-                <td>400 - 700</td>
+                <td>500 - 800</td>
               </tr>
             </tbody>
             <tfoot>
