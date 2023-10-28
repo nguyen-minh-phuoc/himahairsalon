@@ -23,7 +23,7 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">Cắt tạo kiểu</td>
-                <td>100 - 150</td>
+                <td>100 - 150k</td>
               </tr>
             </tbody>
           </table>
@@ -41,13 +41,13 @@ const PriceList = () => {
                 <td className="w-[70%]">
                   Gội thường <br /> (Rejoice, Pantene, Sunsilk, Dove...)
                 </td>
-                <td>70</td>
+                <td>70k</td>
               </tr>
               <tr>
                 <td>
-                  Gội cao cấp <br /> (dầu gội cao cấp Davines - Ý)
+                  Gội cao cấp <br /> (dầu gội cao cấp Davines - Ý, Morocanoil)
                 </td>
-                <td>100</td>
+                <td>100k</td>
               </tr>
             </tbody>
           </table>
@@ -63,25 +63,25 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">
-                  Gói 1 (nhuộm dưỡng): AFINAGE, RG <br />
-                  (Size S/M/L/XL)
+                  Gói nhuộm dưỡng: <br />
+                  (Afinage, RG,...)
                 </td>
-                <td>500 - 800</td>
+                <td>600 - 900k</td>
               </tr>
               <tr>
                 <td>
-                  Gói 2 (nhuộm phục hồi): DAVINES, ERAYBA, MIBON <br />
-                  (Size S/M/L/XL)
+                  Gội nhuộm cao cấp <br />
+                  (Morocanoil, Davines, Erayba, Mibon,...)
                 </td>
-                <td>700 - 1000</td>
+                <td>800 - 1200k</td>
               </tr>
               <tr>
                 <td>Làm nền / nâng tông</td>
-                <td>200 - 400</td>
+                <td>200 - 400k</td>
               </tr>
               <tr>
                 <td>Giậm chân tóc</td>
-                <td>200 - 400</td>
+                <td>250 - 400k</td>
               </tr>
             </tbody>
           </table>
@@ -95,23 +95,33 @@ const PriceList = () => {
             </thead>
             <tbody>
               <tr>
-                <td>Uốn mái</td>
-                <td>100</td>
+                <td className="w-[70%]">Uốn/Duỗi</td>
+                <td>600 - 900k</td>
               </tr>
               <tr>
-                <td className="w-[70%]">Uốn phồng / Dập phòng</td>
-                <td>300 - 400</td>
+                <td>Uốn + Duỗi</td>
+                <td>800 - 1100k</td>
+              </tr>
+              <tr>
+                <td>Uốn xù mì, uốn sóng</td>
+                <td>700 - 1000k</td>
+              </tr>
+              <tr>
+                <td>Uốn phồng chân, dập phồng</td>
+                <td>300 - 400k</td>
               </tr>
               <tr>
                 <td>
-                  Uốn hoặc Duỗi (Size S/M/L)
-                  <br /> Uốn + Duỗi (thêm phí duỗi 200)
+                  Phục hồi tóc <br />
+                  (Morocanoil, Davines,...)
                 </td>
-                <td>600 - 900</td>
+                <td>300 - 600k</td>
               </tr>
               <tr>
-                <td>Uốn xù, uốn sóng (Size S/M/L)</td>
-                <td>700 - 1000</td>
+                <td>
+                  Hấp dưỡng <br /> (Morocanoil, Davines,...)
+                </td>
+                <td>200 - 400k</td>
               </tr>
             </tbody>
           </table>
@@ -119,38 +129,26 @@ const PriceList = () => {
             <thead>
               <tr>
                 <th scope="col" colSpan={2} className="bg-secondary">
-                  Dịch vụ khác
+                  Tẩy tóc / Bóc màu
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="w-[70%]">
-                  Hấp dưỡng <br /> (Morocanoil)
-                </td>
-                <td>200 - 400</td>
-              </tr>
-              <tr>
-                <td className="w-[70%]">
-                  Phục hồi <br /> (Morocanoil, Nhật)
-                </td>
-                <td>300 - 600</td>
+                <td className="w-[70%]">Móc light sợi, mảng</td>
+                <td>200 - 800k</td>
               </tr>
               <tr>
                 <td>Tẩy tóc / bóc màu (Size S/M/L)</td>
-                <td>500 - 800 - 1000</td>
+                <td>500 - 800 - 1000k</td>
               </tr>
               <tr>
-                <td>Móc light sợi</td>
-                <td>200 - 500</td>
+                <td>Balayage</td>
+                <td>2000 - 4000k</td>
               </tr>
               <tr>
-                <td>Móc light mảng</td>
-                <td>500 - 800</td>
-              </tr>
-              <tr>
-                <td>Tẩy balayage</td>
-                <td>2000 - 3000</td>
+                <td>Nối light</td>
+                <td>80k/1 sợi</td>
               </tr>
             </tbody>
           </table>
@@ -165,20 +163,13 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">Nhuộm cơ bản</td>
-                <td>400 - 700</td>
+                <td>400 - 700k</td>
               </tr>
               <tr>
-                <td className="w-[70%]">Uốn cơ bản</td>
-                <td>500 - 800</td>
+                <td>Uốn cơ bản</td>
+                <td>500 - 800k</td>
               </tr>
             </tbody>
-            <tfoot>
-              <tr>
-                <td colSpan={2} className="text-right">
-                  * ĐVT: ngàn đồng
-                </td>
-              </tr>
-            </tfoot>
           </table>
         </div>
       </div>

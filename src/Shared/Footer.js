@@ -20,7 +20,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                109/8 Lê Lợi, Phường 4, Quận Gò Vấp
+                109 Lê Lợi, Phường 4, Quận Gò Vấp
                 <br /> TP. Hồ Chí Minh
               </a>
             </p>
@@ -46,8 +46,11 @@ const Footer = () => {
         </div>
         <div>
           <div className="flex gap-6 mt-2">
-          <a
-              href={formatFacebookLink("https://www.facebook.com/salonHimahair",100063613957040)}
+            <a
+              href={formatFacebookLink(
+                "https://www.facebook.com/salonHimahair",
+                100063613957040
+              )}
               target="_blank"
               rel="noreferrer"
             >
@@ -74,7 +77,6 @@ const Footer = () => {
             >
               <img className="w-6 h-6" src={img3} alt="Youtube" />
             </a> */}
-           
           </div>
           <div className="flex items-start mt-[10px]">
             <img className="w-[24px] h-[24px] mt-1" src={clockIcon} alt="" />
