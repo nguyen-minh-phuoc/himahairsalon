@@ -85,7 +85,6 @@ const Testimonials = () => {
         "Nhân viên thân thiên , anh chủ thì bao tận tình và dễ thương luôn nha . Mọi người hay đến và trải nghiệm đảm bảo sẽ ưng ý ngay lần đầu tiên luôn nhé . ☺️☺️",
     },
   ];
-  
 
   return (
     <div className="bg-base-100 py-20 px-4">
@@ -165,7 +164,10 @@ const Testimonials = () => {
         <button
           onClick={() =>
             window.open(
-              formatFacebookLink("https://www.facebook.com/salonHimahair/reviews",100063613957040),
+              formatFacebookLink(
+                "https://www.google.com/maps/place/Hima+Hair+Salon/@10.8187711,106.6856969,17z/data=!4m8!3m7!1s0x317529bee3a818c3:0xdd373efea6f7747d!8m2!3d10.8187711!4d106.6856969!9m1!1b1!16s%2Fg%2F11sy5sqtv9?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D",
+                100063613957040
+              ),
               "_blank"
             )
           }
