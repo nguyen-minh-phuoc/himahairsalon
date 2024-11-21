@@ -46,16 +46,17 @@ svg.marker-icon
     background-image: url(./Assets/Images/Image/pricelist2_md.jpg);
 
 }
-.page-contact-us .page-banner
-{
-    background-image: url(./Assets/Images/Image/hair_tools.jpg);
-}
-
 .page-gallery .page-banner
 {
-    background-image: url(./Assets/Images/Image/gallery.webp);
+    background-image: url(./Assets/Images/Image/hair_tools.jpg);
 
 }
+.page-contact-us .page-banner
+{
+    background-image: url(./Assets/Images/Image/hand_cover.jpg); 
+}
+
+
 .text-hima
 {
     background: linear-gradient(
