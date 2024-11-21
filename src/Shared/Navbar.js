@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MenuAlt1Icon, MenuAlt3Icon, XIcon } from "@heroicons/react/solid";
 import { useLocation, useNavigate } from "react-router-dom";
-import logo from "../Assests/Images/Image/logo6.png";
+import logo from "../Assets/Images/Image/logo6.png";
 import CustomLink from "./CustomLink";
 import useAnalyticsEventTracker from "./useAnalyticsEventTracker";
 const Navbar = () => {
@@ -67,12 +67,12 @@ const Navbar = () => {
             >
               Sản phẩm
             </CustomLink> */}
-            {/* <CustomLink
+            <CustomLink
               to="/hinh-anh"
               className=" px-5 text-accent rounded py-1   "
             >
               Hình ảnh
-            </CustomLink> */}
+            </CustomLink>
             <CustomLink
               to="/lien-he"
               className=" px-5 text-accent rounded py-1   "

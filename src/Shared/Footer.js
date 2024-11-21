@@ -1,11 +1,11 @@
 import React from "react";
 import formatFacebookLink from "./formatFacebookLink";
-import mapIcon from "../Assests/Images/Icon/map-pin-2-fill.png";
-import clockIcon from "../Assests/Images/Icon/clock.png";
-import img1 from "../Assests/Images/Icon/Vector-1.png";
-import img2 from "../Assests/Images/Icon/tiktok.png";
-// import img3 from "../Assests/Images/Icon/Vector-3.png";
-import img4 from "../Assests/Images/Icon/Vector.png";
+import mapIcon from "../Assets/Images/Icon/map-pin-2-fill.png";
+import clockIcon from "../Assets/Images/Icon/clock.png";
+import img1 from "../Assets/Images/Icon/Vector-1.png";
+import img2 from "../Assets/Images/Icon/tiktok.png";
+// import img3 from "../Assets/Images/Icon/Vector-3.png";
+import img4 from "../Assets/Images/Icon/Vector.png";
 import {} from "@heroicons/react/solid";
 const Footer = () => {
   return (

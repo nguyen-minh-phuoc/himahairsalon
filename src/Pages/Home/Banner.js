@@ -1,5 +1,5 @@
 import React from "react";
-import headerImg2 from "../../Assests/Images/Image/home.jpg";
+import headerImg2 from "../../Assets/Images/Image/home.jpg";
 import Navbar from "../../Shared/Navbar";
 import useAnalyticsEventTracker from "../../Shared/useAnalyticsEventTracker";
 

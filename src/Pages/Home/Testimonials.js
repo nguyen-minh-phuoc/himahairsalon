@@ -10,15 +10,15 @@ import "swiper/css/autoplay";
 
 // import required modules
 import { Pagination, Autoplay } from "swiper";
-import img1 from "../../Assests/Images/Image/ngoc_van.jpg";
-import img2 from "../../Assests/Images/Image/minh_chau.jpg";
-import img3 from "../../Assests/Images/Image/trang_tong.jpg";
-import img4 from "../../Assests/Images/Image/ha_min.jpg";
-import img5 from "../../Assests/Images/Image/thao_cao.jpg";
-import img6 from "../../Assests/Images/Image/mi_nu.jpg";
-import img7 from "../../Assests/Images/Image/nga_tran.jpg";
-import img8 from "../../Assests/Images/Image/nhi_nguyen.jpg";
-import img9 from "../../Assests/Images/Image/nhi_phan.jpg";
+import img1 from "../../Assets/Images/Image/ngoc_van.jpg";
+import img2 from "../../Assets/Images/Image/minh_chau.jpg";
+import img3 from "../../Assets/Images/Image/trang_tong.jpg";
+import img4 from "../../Assets/Images/Image/ha_min.jpg";
+import img5 from "../../Assets/Images/Image/thao_cao.jpg";
+import img6 from "../../Assets/Images/Image/mi_nu.jpg";
+import img7 from "../../Assets/Images/Image/nga_tran.jpg";
+import img8 from "../../Assets/Images/Image/nhi_nguyen.jpg";
+import img9 from "../../Assets/Images/Image/nhi_phan.jpg";
 const Testimonials = () => {
   const reviews = [
     {

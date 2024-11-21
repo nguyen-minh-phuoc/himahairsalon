@@ -1,5 +1,5 @@
 import React from "react";
-import haircut from "../../Assests/Images/Image/haircut.jpg";
+import haircut from "../../Assets/Images/Image/haircut.jpg";
 const QualityService = () => {
   return (
     <div className="py-16 bg-neutral">

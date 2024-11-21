@@ -43,17 +43,18 @@ svg.marker-icon
 
 .page-price-list .page-banner
 {
-    background-image: url(./Assests/Images/Image/pricelist2_md.jpg);
+    background-image: url(./Assets/Images/Image/pricelist2_md.jpg);
 
 }
 .page-contact-us .page-banner
 {
-    background-image: url(./Assests/Images/Image/hair_tools.jpg);
+    background-image: url(./Assets/Images/Image/hair_tools.jpg);
 }
 
 .page-gallery .page-banner
 {
-    background-image: url(./Assests/Images/Image/hair_tools.jpg);
+    background-image: url(./Assets/Images/Image/gallery.webp);
+
 }
 .text-hima
 {
@@ -75,7 +76,7 @@ svg.marker-icon
     }
     .page-price-list .page-banner
     {
-        background-image: url(./Assests/Images/Image/pricelist2_xs.jpg);
+        background-image: url(./Assets/Images/Image/pricelist2_xs.jpg);
     
     }
 
@@ -91,3 +92,7 @@ svg.marker-icon
     padding-left: 40px;
 }
 
+.gallery-container
+{
+    margin-bottom: 40px;
+}

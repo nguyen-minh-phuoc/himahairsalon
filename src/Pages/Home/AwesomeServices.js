@@ -7,11 +7,11 @@ import "swiper/css/pagination";
 import "swiper/css/autoplay";
 // import required modules
 import { Pagination, Autoplay } from "swiper";
-import img1 from "../../Assests/Images/Icon/cat.png";
-import img2 from "../../Assests/Images/Icon/nhuom.png";
-import img3 from "../../Assests/Images/Icon/uon.png";
-import img4 from "../../Assests/Images/Icon/duoi.png";
-import img5 from "../../Assests/Images/Icon/goi.png";
+import img1 from "../../Assets/Images/Icon/cat.png";
+import img2 from "../../Assets/Images/Icon/nhuom.png";
+import img3 from "../../Assets/Images/Icon/uon.png";
+import img4 from "../../Assets/Images/Icon/duoi.png";
+import img5 from "../../Assets/Images/Icon/goi.png";
 import Service from "./Service";
 import { useNavigate } from "react-router-dom";
 
