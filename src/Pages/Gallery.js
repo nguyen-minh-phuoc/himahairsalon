@@ -91,17 +91,20 @@ const Gallery = React.memo(() => {
             elementClassNames="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4"
           >
             {galleryImages.map((image, index) => (
-              <a
-                key={index}
-                className="gallery-item"
-                href={image.src} // Original image shown in lightbox
-                data-lg-size="1600-2400" // Optional: Set the size of the lightbox
+              <a 
+                key={index} 
+                className="gallery-item block relative aspect-square"
+                href={image.src}
+                data-lg-size="1600-2400"
               >
-                <img
-                  alt={image.alt}
-                  src={image.thumb} // Thumbnail shown in grid
-                  className="w-full aspect-square object-cover rounded-lg hover:opacity-90 transition-opacity"
-                />
+                <div className="w-full h-full bg-gray-100">
+                  <img
+                    alt={image.alt}
+                    src={image.thumb}
+                    className="w-full h-full object-cover rounded-lg hover:opacity-90 transition-opacity absolute inset-0"
+                    loading="lazy"
+                  />
+                </div>
               </a>
             ))}
           </LightGallery>
