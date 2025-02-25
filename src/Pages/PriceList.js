@@ -23,7 +23,7 @@ const PriceList = () => {
             <tbody>
               <tr>
                 <td className="w-[70%]">Cắt tạo kiểu</td>
-                <td>100 - 150k</td>
+                <td>150 - 200k</td>
               </tr>
             </tbody>
           </table>

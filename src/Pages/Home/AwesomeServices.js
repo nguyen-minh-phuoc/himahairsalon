@@ -29,7 +29,7 @@ const AwesomeServices = () => {
 
       img: img1,
 
-      price: 100,
+      price: 150,
 
       description: "",
     },
