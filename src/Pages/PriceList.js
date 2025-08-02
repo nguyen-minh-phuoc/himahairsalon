@@ -12,150 +12,111 @@ const PriceList = () => {
       <div>
         <div className="container price-list">
           <h1 className="text-3xl font-bold py-5 text-primary">Bảng giá</h1>
-          <table className="table-auto w-full first">
-            <thead>
-              <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Cắt
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-[70%]">Cắt tạo kiểu</td>
-                <td>150 - 200k</td>
-              </tr>
-            </tbody>
-          </table>
 
           <table className="table-auto w-full">
             <thead>
               <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Gội sấy
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-[70%]">Gội thường</td>
-                <td>70k</td>
-              </tr>
-              <tr>
-                <td>Gội cao cấp</td>
-                <td>100k</td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Nhuộm
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-[70%]">Gói nhuộm dưỡng</td>
-                <td>600 - 900k</td>
-              </tr>
-              <tr>
-                <td>Gội nhuộm cao cấp</td>
-                <td>800 - 1200k</td>
-              </tr>
-              <tr>
-                <td>Làm nền / nâng tông</td>
-                <td>200 - 400k</td>
-              </tr>
-              <tr>
-                <td>Giậm chân tóc</td>
-                <td>250 - 400k</td>
-              </tr>
-            </tbody>
-          </table>
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Uốn / Duỗi
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-[70%]">Uốn/Duỗi</td>
-                <td>600 - 900k</td>
-              </tr>
-              <tr>
-                <td>Uốn + Duỗi</td>
-                <td>800 - 1100k</td>
-              </tr>
-              <tr>
-                <td>Uốn xù mì, uốn sóng</td>
-                <td>700 - 1000k</td>
-              </tr>
-              <tr>
-                <td>Uốn phồng chân, dập phồng</td>
-                <td>300 - 400k</td>
-              </tr>
-              <tr>
-                <td>Phục hồi tóc</td>
-                <td>300 - 600k</td>
-              </tr>
-              <tr>
-                <td>Hấp dưỡng</td>
-                <td>200 - 400k</td>
-              </tr>
-            </tbody>
-          </table>
-          <table className="table-auto w-full">
-            <thead>
-              <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Tẩy tóc / Bóc màu
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="w-[70%]">Móc light sợi, mảng</td>
-                <td>200 - 800k</td>
-              </tr>
-              <tr>
-                <td>Tẩy tóc / bóc màu (Size S/M/L)</td>
-                <td>500 - 800 - 1000k</td>
-              </tr>
-              <tr>
-                <td>Balayage</td>
-                <td>2000 - 4000k</td>
-              </tr>
-              <tr>
-                <td>Nối light</td>
-                <td>80k/1 sợi</td>
-              </tr>
-            </tbody>
-          </table>
-          <table className="table-auto w-full mb-20">
-            <thead>
-              <tr>
-                <th scope="col" colSpan={2} className="bg-secondary">
-                  Dịch vụ cơ bản
+                <th colSpan={2} className="bg-secondary">
+                  DỊCH VỤ NHUỘM
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td className="w-[70%]">Nhuộm cơ bản</td>
-                <td>400 - 700k</td>
+                <td>500 - 600 - 700k</td>
               </tr>
               <tr>
-                <td>Uốn cơ bản</td>
-                <td>500 - 800k</td>
+                <td>Nhuộm dưỡng</td>
+                <td>700 - 800 - 900k</td>
+              </tr>
+              <tr>
+                <td>Nhuộm cao cấp</td>
+                <td>800 - 1000 - 1200k</td>
+              </tr>
+              <tr>
+                <td>Nâng tone</td>
+                <td>350 - 400 - 450k</td>
+              </tr>
+              <tr>
+                <td>Nhuộm chân</td>
+                <td>350 - 500k</td>
               </tr>
             </tbody>
           </table>
+
+          <table className="table-auto w-full">
+            <thead>
+              <tr>
+                <th colSpan={2} className="bg-secondary">
+                  UỐN TÓC
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="w-[70%]">Uốn mái</td>
+                <td>150 - 200k</td>
+              </tr>
+              <tr>
+                <td>Uốn / Bấm phồng</td>
+                <td>300 - 500k</td>
+              </tr>
+              <tr>
+                <td>Uốn dưỡng Korea</td>
+                <td>700 - 800 - 900k</td>
+              </tr>
+              <tr>
+                <td>Uốn cao cấp Japan</td>
+                <td>800 - 1000 - 1200k</td>
+              </tr>
+              <tr>
+                <td>Uốn xù mì & sóng</td>
+                <td>800 - 1000 - 1200k</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <table className="table-auto w-full mb-10">
+            <thead>
+              <tr>
+                <th colSpan={2} className="bg-secondary">
+                  DUỖI TÓC
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="w-[70%]">Duỗi mái</td>
+                <td>150 - 200k</td>
+              </tr>
+              <tr>
+                <td>Duỗi chân</td>
+                <td>400 - 500k</td>
+              </tr>
+              <tr>
+                <td>Duỗi Schwarzkopf/Korea</td>
+                <td>700 - 800 - 900k</td>
+              </tr>
+              <tr>
+                <td>Duỗi cao cấp Japan</td>
+                <td>800 - 1000 - 1200k</td>
+              </tr>
+              <tr>
+                <td>Duỗi + Uốn</td>
+                <td>800 - 1000 - 1200k</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div className="text-sm text-red-600 pb-10">
+            <p>
+              * Giá tóc tùy thuộc vào độ ngắn dài hoặc nhiều theo size S/M/L
+              (nếu vượt trội sẽ cộng thêm phí 100-200k)
+            </p>
+            <p>* Báo giá rõ ràng không phát sinh.</p>
+            <p>* Có thể yêu cầu xem thuốc trước khi dùng.</p>
+          </div>
         </div>
       </div>
       <Footer />
