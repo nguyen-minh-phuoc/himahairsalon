@@ -13,7 +13,7 @@ const PriceList = () => {
         <div className="container price-list">
           <h1 className="text-3xl font-bold py-5 text-primary">Bảng giá</h1>
 
-          <table className="table-auto w-full mt-10">
+          <table className="table-auto w-full">
             <thead>
               <tr>
                 <th colSpan={2} className="bg-pink-200">
