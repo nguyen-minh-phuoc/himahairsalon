@@ -13,10 +13,10 @@ const PriceList = () => {
         <div className="container price-list">
           <h1 className="text-3xl font-bold py-5 text-primary">Bảng giá</h1>
 
-          <table className="table-auto w-full">
+          <table className="table-auto w-full mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-secondary">
+                <th colSpan={2} className="bg-pink-300">
                   DỊCH VỤ NHUỘM
                 </th>
               </tr>
@@ -45,10 +45,10 @@ const PriceList = () => {
             </tbody>
           </table>
 
-          <table className="table-auto w-full">
+          <table className="table-auto w-full mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-secondary">
+                <th colSpan={2} className="bg-pink-300">
                   UỐN TÓC
                 </th>
               </tr>
@@ -77,10 +77,10 @@ const PriceList = () => {
             </tbody>
           </table>
 
-          <table className="table-auto w-full mb-10">
+          <table className="table-auto w-full mb-10 mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-secondary">
+                <th colSpan={2} className="bg-pink-300">
                   DUỖI TÓC
                 </th>
               </tr>
