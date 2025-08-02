@@ -16,7 +16,7 @@ const PriceList = () => {
           <table className="table-auto w-full mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-pink-300">
+                <th colSpan={2} className="bg-pink-200">
                   DỊCH VỤ NHUỘM
                 </th>
               </tr>
@@ -48,7 +48,7 @@ const PriceList = () => {
           <table className="table-auto w-full mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-pink-300">
+                <th colSpan={2} className="bg-pink-200">
                   UỐN TÓC
                 </th>
               </tr>
@@ -80,7 +80,7 @@ const PriceList = () => {
           <table className="table-auto w-full mb-10 mt-10">
             <thead>
               <tr>
-                <th colSpan={2} className="bg-pink-300">
+                <th colSpan={2} className="bg-pink-200">
                   DUỖI TÓC
                 </th>
               </tr>
