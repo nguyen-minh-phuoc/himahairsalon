@@ -55,12 +55,12 @@ const Navbar = () => {
             <CustomLink to="/" className=" px-5 text-accent rounded py-1   ">
               Trang chủ
             </CustomLink>
-            <CustomLink
+            {/* <CustomLink
               to="/bang-gia"
               className=" px-5 text-accent rounded py-1   "
             >
               Bảng giá
-            </CustomLink>
+            </CustomLink> */}
             {/* <CustomLink
               to="/san-pham"
               className=" px-5 text-accent rounded py-1   "
