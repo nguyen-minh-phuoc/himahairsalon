@@ -21,7 +21,7 @@ const ContactUs = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  109/8 Lê Lợi, Phường 4, Quận Gò Vấp, TP.HCM
+                  109/8 Lê Lợi, Phường 1, Quận Gò Vấp, TP.HCM
                 </a>
               </div>
               <div>
